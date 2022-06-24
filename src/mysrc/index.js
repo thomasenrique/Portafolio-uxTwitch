@@ -24,6 +24,7 @@ export default class Index extends React.Component {
                             <li>Nuevos intereses</li>
                             <li>Roadmap Fullstack</li>
                             <li>Proyectos</li>
+                            <li>Sobre este sitio</li>
                         </ul>
                     </div>
                 </div>

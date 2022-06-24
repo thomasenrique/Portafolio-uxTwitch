@@ -1,7 +1,12 @@
 * {
     margin: 0;
     font-family: Quicksand;
-    color: #f0f0ff; 
+    color: #f0f0ff;
+}
+
+::selection {
+    /* color: #9146ff; */
+    background: #9146ff;
 }
 
 .contenedor {
