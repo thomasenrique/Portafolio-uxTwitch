@@ -32,6 +32,7 @@
     margin-bottom: 1em;
     width: 420px;
     cursor: pointer;
+    justify-content: space-between;
 }
 
 .centrar2 {

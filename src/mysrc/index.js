@@ -24,7 +24,7 @@ export default class Index extends React.Component {
           <li>Home</li>
         </Link>
 
-        <Link to='/Presentacion' onClick={() => { this.setState({ WebActual: "Presentacion" }); }}>
+        <Link to='/Presentacion' onClick={() => { this.setState({ WebActual: "Presentacón" }); }}>
           <li>Me presento</li>
         </Link>
 
@@ -35,7 +35,9 @@ export default class Index extends React.Component {
         <li>Habilidades</li>
         <li>Hobbies</li>
         <li>Nuevos intereses</li>
-        <li>Roadmap Fullstack</li>
+        <Link to='/RoadMap' onClick={() => { this.setState({ WebActual: "RoadMap" }); }}>
+          <li>Roadmap Fullstack</li>
+        </Link>
         <li>Proyectos</li>
         <li>Sobre este sitio</li>
       </>
@@ -86,9 +88,9 @@ export default class Index extends React.Component {
             <div id="contenido" className="contenido">
               <div className="mostrar centrar">
                 {false ? Routers : <></>}
-                {false ? <Presentacion /> : <></>}
-                {false ? <Contacto /> : <></>}
-                {true ? <RoadMap /> : <></>}
+                {this.state.WebActual == "Presentacón" ? <Presentacion /> : <></>}
+                {this.state.WebActual == "Contacto" ? <Contacto /> : <></>}
+                {this.state.WebActual == "RoadMap" ? <RoadMap /> : <></>}
 
               </div>
 
