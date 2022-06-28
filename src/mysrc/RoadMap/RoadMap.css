@@ -1,0 +1,42 @@
+.centrar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ContenedorContacto {
+    background-color: #121212;
+    width: 90%;
+    height: 90%;
+    border-radius: 4px;
+    letter-spacing: .1em;
+    font-size: 1.1em;
+}
+
+.ContenedorContacto .mitad {
+    width: 45%;
+    height: 90%;
+    margin: 2.5%;
+    background-color: blanchedalmond;
+}
+
+.ContenedorContacto .full {
+    width: 95%;
+    height: 90%;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+}
+
+.ContenedorEstrellas {
+    display: inline-flex;
+    margin-bottom: 1em;
+    width: 420px;
+    cursor: pointer;
+}
+
+.centrar2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
